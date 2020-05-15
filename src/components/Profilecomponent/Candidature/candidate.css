@@ -1,0 +1,23 @@
+#candidature .active {
+    border-bottom: #5e43aa solid 2px;
+    
+}
+
+#candidature  {
+  width: 110%;
+
+}
+
+#tracker{
+    color:blueviolet;
+    padding:8px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+#candidate{
+    color:blueviolet;
+    padding:8px;
+    font-size: 14px;
+    font-weight: 500px;
+}

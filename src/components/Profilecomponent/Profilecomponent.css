@@ -1,0 +1,9 @@
+.Sidebarcss{
+padding: 20px;
+margin:0 auto;
+text-align: center;
+font-size:2em;
+}
+#inbox .active {
+    border-bottom: #5e43aa solid 2px;
+}

@@ -1,0 +1,616 @@
+#rectangleBannerFeatures .box{
+    background-image: url(../image/rectangle_banner.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 340px;
+    width: 100%;
+  }
+  #signupbetaimgFeatures{
+  background-image: url(../image/sidesignup.png);
+  background-repeat: none;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+  height:55px;  
+  width:auto;
+  z-index: 2;
+  right:0;
+  cursor: pointer;
+  margin-top: 11%;
+  border:  3px solid white;
+  border-radius:30px 0px 0px 30px ;
+  }
+  #signupbetaExpandimgFeatures{
+    background-image: url(../image/background_purple.png);
+  background-repeat: none;
+	background-attachment: scroll;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	-o-background-size: cover;
+  height:300px;  
+  width: 40%;
+  z-index: 2;
+  right:0;
+  cursor: pointer;
+  margin-top: 11%; 
+  }
+#googleButtonFeature img{
+  margin-left: 45px;
+  width:40%;
+}
+#extandCard {
+  width: 300px;
+  height: 390px;
+  background: #7f22e7;
+  border: 42px solid #7f22e7;
+  /* padding: 42px; */
+  margin-top:-45px;
+  margin-left: -35px;
+}
+
+  /* #summary {
+    font-size: 14px;
+    line-height: 1.5;    
+  }
+  #summary p.collapse:not(.show) {
+      height: 48px !important;
+      overflow: hidden;    
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;  
+  }
+  #summary p.collapsing {
+      min-height: 60px !important;
+  }
+  #summary a.collapsed:after  {
+      content: '+ Read More';
+      color: black;
+      font-weight: 600;   
+  }
+  #summary a:not(.collapsed):after {
+      content: '- Read Less';
+      color: black;
+      font-weight: 600;
+    
+  } */
+ 
+/* ---------------------------------------------------------------- */
+[aria-expanded="false"] > .expanded,
+[aria-expanded="true"] > .collapsed {
+  display: none;
+}
+  /* -------------------------------------------------------- */
+  .rectangleFeatures {
+    height: 120px;
+    width: 200px;
+    background-color:#ebebeb;
+    border:2px solid #ebebeb;
+    margin-left: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+  }
+  .rectangle2 {
+    height: 120px;
+    width: 200px;
+    background-color:#ebebeb;
+    border:2px solid #ebebeb;
+    margin-left: 50px;
+    margin-top: 25px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+  }
+  .expandcard {
+    height: 130px;
+    width: 220px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  .rectangle3 {
+    height: 120px;
+    width: 200px;
+    background-color:#ebebeb;
+    border:2px solid #ebebeb;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  .rectangle4 {
+    height: 120px;
+    width: 200px;
+    background-color:#ebebeb;
+    border:2px solid #ebebeb;
+    margin-left: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+  }
+  .rectangle5 {
+    height: 120px;
+    width: 200px;
+    background-color:#ebebeb;
+    border:2px solid #ebebeb;
+    margin-left: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+  }
+  .colorrectange{
+    height: 300px;
+    width: 300px;
+    margin-top: -20px;
+    background-color:#7f22e7;
+    border:2px solid #ebebeb;
+    margin-left: 50px;
+    transition: 0.3s;
+  }
+#allCardHeight{
+  height: 400px
+} 
+#allCardHeading{
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+}
+#allCardParagraph{
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 10px;
+}
+#allExtendCardHeading{
+font-weight: 600; 
+font-size: 14px; 
+margin-top: 10px; 
+color:white
+}
+#readmoreCard{
+  font-weight: 600;
+  font-size: 14px;
+  color:black
+}
+#allExtendParagraph{
+  font-size: 11px;
+  font-weight: 400;
+  margin-top: 10px;
+  color:white
+}
+.allExtendCollapseParagraph{
+  font-size: 11px;
+  font-weight: 400;
+  color:white;
+  margin-top: -10px;
+}
+#allExtendCardCloss{
+  float:right;
+  margin-right: -30px;
+  color:#ffffff;
+  font-size: 25px;
+  cursor: pointer;
+}
+#allextendCardReadmore{
+font-size: 14px;
+color: white;
+font-weight: 400;
+}
+#allCardMarginLeft{
+  margin-left: 80px;
+}
+
+/* ----------------------------------------Desktop View---------------------------- */
+@media screen and (min-width:1920px) {
+  #signupbetaimgFeatures{
+    margin-top: 11%;
+  }
+  #signupbetaExpandimgFeatures{
+    margin-top: 11%;
+    width: 45%;
+    height:480px;  
+  }
+  
+    #flagImg {
+        margin-right: 15%;
+        margin-top:-5%;
+      }
+      #flagImg img{
+       margin-top: 50px;
+       width: 100%;
+      }
+      #signupInput input::placeholder{
+        font-size: 20px;
+      }
+      #signupInput input{
+        width:90%;
+        margin-left :20px;
+        margin-top: 70px;
+         height: 70px; 
+      }
+      #signupbutton1{
+        padding:12px;
+        font-size: 30px;
+        margin-left: 15px;
+      }
+      #signInputbutton{
+        margin-left: 70%;
+        font-size: 25px;
+        margin-top: -60px;
+       }
+      #signInputbutton button{
+        border-radius: 25px;
+        padding:5px;
+        width:130px; 
+      }
+      #signtextcolor{
+        margin-top: -10px;
+        font-size: 20px;
+      }
+      #signupCancel{
+        float: right;
+        font-size: 40px;
+      }
+      #EnterprisebuttonContent{
+        font-size: 16px;
+        color: #000000;
+      }
+}
+/* ----------------------finish media query-------  */
+/* -------------------------------------------Desktop view End------------------------- */
+
+/* ------------------------------------------All Mobile View----------------------- */
+/* -----------------------------iPhone(6+, 7+ and 8+)---Mobile View--------------------- */
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: portrait){ 
+  #rectangleBannerFeatures .box{
+    height: 190px;
+    width: 100%;
+  }
+  #signupbetaimgFeatures{
+    height:auto;  
+    width:auto;
+    right:0px;
+    margin-top: 25%;
+    border:  2px solid white;
+    border-radius:25px 0px 0px 25px ;
+  }
+  #signupbutton{
+    padding:10px;
+    font-size: 14px;
+  }
+  /* --------------sign up beta button End-------- */
+  /* --------------sign up beta Expand button-------- */
+  #signupbetaExpandimgFeatures{
+    height:150px;  
+    width: 70%;
+    right:0;
+    margin-top: 25%;
+  }
+  #signupbutton1{
+    padding:6px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  #signtextcolor{
+    margin-top: -8px;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  #flagImg {
+    width: 40px; 
+   margin-right: 45px;
+  }
+  #signupInput input{
+    width:90%;
+    height: 40px;
+    margin-left :15px;
+    margin-top: -20px;
+    text-indent: 5px;
+    font-size: 12px;
+  }
+  #signInputbutton{
+    margin-left: 65%;
+    font-size: 12px; 
+   }
+  #signInputbutton button{
+    width:70px; 
+    margin-top: -15px;
+  }
+  #validEmailError{
+    margin-left: 35px;
+    margin-top: -10px;
+  }
+  
+ 
+  /* --------------sign up beta Expand button End-------- */
+  #googleButtonFeature img{
+    margin-left: 100px;
+    margin-top: -50px;
+    width:50%;
+  }
+#sec2col1{
+  margin-top: 15px;
+}
+#allCardHeight{
+  height: auto
+} 
+
+/* -------------------------footer contact page------------------- */
+    #contactUsForm{
+      margin-left: 5px;
+    }
+    #contactUsExtralinkForm{
+      margin-left: 190px;
+      margin-top: -78px;
+    }
+    #contactusServiceform{
+      margin-left: 290px;
+      margin-top: -135px;
+    }
+    #sec9EmailNewslatter{
+     margin-left: -15px;
+     margin-top: 10px;
+     font-size: 15px;
+    }
+    #sec9EmailNewsCont{
+      font-size: 10px;
+      margin-top: 10px;
+      margin-left: -15px;
+      font-weight: 500;
+    }
+    
+  #Sec9placeholdeEmail {
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+  #Sec9SubscribeButton {
+    margin-top: 15px;
+    } 
+}
+/* ----------------------------------------iPhone(6+, 7+ and 8+)---Mobile View End-------------------  */
+
+/* ----------- iPhone 6, 6S, 7 and 8  Mobile View ----------- */
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) { 
+  #rectangleBannerFeatures .box{
+    height: 170px;
+    width: 100%;
+  }
+  /* --------------sign up beta button-------- */
+  #signupbetaimgFeatures{
+    height:auto;  
+    width:auto;
+    right:0px;
+    margin-top: 25%;
+    border:  2px solid white;
+    border-radius:25px 0px 0px 25px ;
+  }
+  #signupbutton{
+    padding:7px;
+    font-size: 12px;
+  }
+  /* --------------sign up beta button End-------- */
+  /* --------------sign up beta Expand button-------- */
+  #signupbetaExpandimgFeatures{
+    height:170px;  
+    width: 70%;
+    right:0;
+    margin-top: 25%;
+  }
+  #signupbutton1{
+    padding:6px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  #signtextcolor{
+    margin-top: -8px;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  #flagImg {
+    width: 40px; 
+   margin-right: 35px;
+  }
+  #signupInput input{
+    width:90%;
+    height: 35px;
+    margin-left :15px;
+    margin-top: -20px;
+    text-indent: 5px;
+    font-size: 12px;
+  }
+  #signInputbutton{
+    margin-left: 65%;
+    font-size: 12px; 
+   }
+  #signInputbutton button{
+    width:70px; 
+    margin-top: -15px;
+  }
+  #validEmailError{
+    margin-left: 35px;
+    margin-top: -10px;
+  }
+  #validEmailError{
+    margin-left: 35px;
+    margin-top: -10px;
+  }
+  /* --------------sign up beta Expand button End-------- */
+
+/* ----------------------section3 Heading--------------------- */
+#googleButtonFeature img{
+  margin-left: 85px;
+  margin-top: -50px;
+  width:60%;
+}
+
+#allCardHeight{
+height: auto
+} 
+#allCardMarginLeft{
+  margin-left: 60px;
+}
+/* ----------------------section3 Heading End--------------------- */
+/* -------------------------Extend card---------------------------- */
+#extandCard {
+  margin-left: -45px;
+}
+/* -----------------------------Extend card End------------ */
+/* -------------------------footer contact page------------------- */
+    #contactUsForm{
+      margin-left: 5px;
+    }
+    #contactUsExtralinkForm{
+      margin-left: 170px;
+      margin-top: -78px;
+    }
+    #contactusServiceform{
+      margin-left: 260px;
+      margin-top: -135px;
+    }
+    #sec9EmailNewslatter{
+     margin-left: -15px;
+     margin-top: 10px;
+     font-size: 15px;
+    }
+    #sec9EmailNewsCont{
+      font-size: 11px;
+      margin-top: 10px;
+      margin-left: -15px;
+      font-weight: 500;
+    }
+    
+  #Sec9placeholdeEmail {
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+  #Sec9SubscribeButton {
+    margin-top: 15px;
+    } 
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8  Mobile View End ----------- */
+
+/* ----------------------------------------375px media query mobile view(for Android mobile) -------------------  */
+@media screen and (max-width:375px) {
+  #rectangleBannerFeatures .box{
+    height: 160px;
+    width: 100%;
+
+  }
+  /* --------------sign up beta button-------- */
+  #signupbetaimgFeatures{
+    height:auto;  
+    width:auto;
+    right:0px;
+    margin-top: 25%;
+    border:  2px solid white;
+    border-radius:25px 0px 0px 25px ;
+  }
+  #signupbutton{
+    padding:7px;
+    font-size: 12px;
+  }
+  /* --------------sign up beta button End-------- */
+  /* --------------sign up beta Expand button-------- */
+  #signupbetaExpandimgFeatures{
+    height:170px;  
+    width: 70%;
+    right:0;
+    margin-top: 25%;
+  }
+  #signupbutton1{
+    padding:6px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  #signtextcolor{
+    margin-top: -8px;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  #flagImg {
+    width: 40px; 
+   margin-right: 35px;
+  }
+  #signupInput input{
+    width:90%;
+    height: 35px;
+    margin-left :15px;
+    margin-top: -20px;
+    text-indent: 5px;
+    font-size: 12px;
+  }
+  #signInputbutton{
+    margin-left: 65%;
+    font-size: 12px; 
+   }
+  #signInputbutton button{
+    width:70px; 
+    margin-top: -15px;
+  }
+  #validEmailError{
+    margin-left: 35px;
+    margin-top: -10px;
+  }
+  #validEmailError{
+    margin-left: 35px;
+    margin-top: -10px;
+  }
+  /* --------------sign up beta Expand button End-------- */
+  
+  #googleButtonFeature img{
+    margin-left: 85px;
+    margin-top: -50px;
+    width:50%;
+  }
+  
+  #allCardHeight{
+  height: auto
+  } 
+  #allCardMarginLeft{
+    margin-left: 60px;
+  }
+  #extandCard {
+    margin-left: -45px;
+  }
+/* ----------------------section4 Heading End--------------------- */
+
+/* -------------------------footer contact page------------------- */
+    #contactUsForm{
+      margin-left: 5px;
+    }
+    #contactUsExtralinkForm{
+      margin-left: 170px;
+      margin-top: -78px;
+    }
+    #contactusServiceform{
+      margin-left: 260px;
+      margin-top: -135px;
+    }
+    #sec9EmailNewslatter{
+     margin-left: -15px;
+     margin-top: 10px;
+     font-size: 15px;
+    }
+    #sec9EmailNewsCont{
+      font-size: 10px;
+      margin-top: 10px;
+      margin-left: -15px;
+      font-weight: 500;
+    }
+    
+  #Sec9placeholdeEmail {
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+  #Sec9SubscribeButton {
+    margin-top: 15px;
+    }   
+}
+/* ----------------------------------------375px media query mobile view End-------------------  */

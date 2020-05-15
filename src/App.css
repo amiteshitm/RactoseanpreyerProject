@@ -1,0 +1,51 @@
+/* #image {
+
+    background: url(./image/BG.png) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-position: center;
+    background-attachment: fixed;
+    top:0;
+    bottom:0;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+
+  }
+ */
+ 
+   /* body{
+    font-family: 'Roboto !important';
+    margin: 0;
+    padding: 0;
+    right: 0;
+  
+  } */
+  @font-face {
+    font-family: 'Roboto';
+    src: url('./roboto/roboto-bold-webfont.eot');
+    src: url('./roboto/roboto-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./roboto/roboto-bold-webfont.woff') format('woff'),
+         url('./roboto/roboto-bold-webfont.ttf') format('truetype'),
+         url('./roboto/roboto-bold-webfont.svg#RobotoBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+
+  @font-face {
+    font-family: 'Roboto';
+    src: url('./roboto/roboto-regular-webfont.eot');
+    src: url('./roboto/roboto-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./roboto/roboto-regular-webfont.woff') format('woff'),
+         url('./roboto/roboto-regular-webfont.ttf') format('truetype'),
+         url('./roboto/roboto-regular-webfont.svg#RobotoRegular') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+ 
+
+

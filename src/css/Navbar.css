@@ -1,0 +1,323 @@
+
+/* --------------login and register navbar------------- */
+/* a:hover, a:focus, a:active {
+    color: #999;
+    text-decoration: none;
+    outline: none;
+    
+  }
+  a {
+    font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+    text-decoration: none;
+    transition: color 0.1s, background-color 0.1s;
+  }
+  a {
+    position: relative;
+    display: block;
+    padding: 8px 0;
+    margin: 0 5px;
+    letter-spacing: 1px;
+    font-size: 12px;
+  
+    font-weight: 900;
+    text-transform: uppercase;
+    transition: color 0.1s,background-color 0.1s,padding 0.2s ease-in;
+    color: #000;
+  }
+  a::before {
+    content: '';
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 0;
+    height: 3px;
+    width: 100%;
+    background-color: #000;
+    transform-origin: right top;
+    transform: scale(0, 1);
+    transition: color 0.1s,transform 0.2s ease-out;
+  }
+  a:active::before {
+    background-color: #000;
+  } 
+  a:hover:after, a:focus:before {
+    transform-origin: left top;
+    transform: scale(1, 1);
+    
+  } 
+  
+  li>a {
+  
+  text-transform:uppercase;
+  font-size:16px;
+  } */
+  body{
+    font-family: Futura;
+}
+
+.navbar-toggle{
+    background-color: transparent;
+    border: none;
+}
+
+/* #nav {
+    
+    background-color: #F7DC4F;
+    color:#5E43AA !important;
+    height:60px;
+} */
+ #navbar .active {
+    border-bottom: #5e43aa solid 2px;
+} 
+.nav-item{
+    margin-right: 0px;
+    margin-right: 5px;
+    margin-bottom: -16px;
+   
+  
+   
+}
+.nav-link{
+    color: #62697A;
+  
+}
+
+
+.jumbotron {
+    color: #8E9299;
+    text-align: center;
+}
+
+p {
+    color: #8E9299;
+}
+
+
+.first-p-container {
+    margin-top: 10px;
+}
+
+.step-one-p {
+    text-align: center;
+}
+
+.second-p-container {
+    margin-top: 10px;
+}
+
+.step-three-p {
+    text-align: center;
+}
+
+
+.third-p-container {
+    margin-top: 20px;
+}
+
+.step-two-p {
+    text-align: center;
+}
+
+.step-container {
+    margin-left: 25px;
+}
+
+/* when the screen size goes below 374 px... */
+@media (max-width: 325px)
+{
+    .navbar-toggler {
+    display: none;
+    }    
+
+}
+
+@media (min-width: 320px)
+{
+    .small-sub-header{
+        display: none;
+    }
+}
+
+@media (max-width: 320px)
+{
+   .main-header{
+       display: none;
+    }
+    .sub-header{
+        display: none;
+    }
+    .small-sub-header{
+        display: inline-block;
+    }
+}
+
+
+@media (max-width: 425px)
+{
+    h1{
+        font-size: 32px;
+    }
+    .sub-header{
+        margin-top: 25px;
+    }
+
+}
+
+
+@media(max-width: 576px)
+{
+    .first-pic-container {
+        border: solid;
+        
+    }
+    .first-step{
+        border: solid;
+    }
+    
+}
+
+/* --------------------profile navbar-------------- */
+
+#postjob{
+    color:white;
+    height: 30px;
+    width:110px;
+    border-radius:30px;
+    margin-top: 5px;
+    padding:6px;
+    font-size: 14px;
+    font-weight: 600px;
+    background-color: #ec9204;
+}
+#search {
+    height: 30px;
+    margin-top: 5px;
+    background-color: #5e43aa;
+    color:white
+}
+ #search::placeholder {
+    color: white;
+    opacity: 1; 
+  }
+
+  #homeNavbar.active{
+    border-bottom: #5e43aa solid 2px;
+}
+#homeNavbar{
+    color:#5e43aa
+}
+#ContactusNavbar.active{
+    border-bottom: #5e43aa solid 2px;
+}
+#ContactusNavbar{
+    color:#5e43aa
+}
+#FeaturesNavbar.active{
+    border-bottom: #5e43aa solid 2px;
+}
+#FeaturesNavbar{
+    color:#5e43aa
+}
+.rounded-circle{
+    height: 35px;
+    width: 35px;
+    margin-top: 5px;
+}
+#newNavbar{
+  overflow: hidden;
+  background-color: #78232331;
+  text-decoration: none;
+  position:fixed;
+  z-Index:3 ;
+  width: 100%;
+  height: auto;
+  margin-top: -15px;
+}
+#ospreyLooimg{
+    z-Index: 2;
+    width: 200px;
+    margin-left:15px;
+    margin-top: 15px
+}
+#rightNavContent{
+        border-radius: 50px;
+        border: 1px solid white;
+        background: white;
+        padding:8px;
+        margin-top:15px;
+        color: #5e43aa;
+        z-index: 2
+}
+/* .newNavbar{
+    overflow: hidden;
+    background-color: #78232331;
+    text-decoration: none;
+    position:fixed;
+    z-Index:1 ;
+    width: 100%;
+   
+  } */
+#profileNavbar{
+    background-color: #5e43aa;
+    height:60px;
+}
+.questioIcon{
+    color: white;
+    background-color: #a392d3;
+    width:35px;
+    height: 35px;
+   padding-top: 20;
+    text-align: center;
+    margin-top: 3px;
+    padding:5px 
+}
+.settingIcon{
+    color: white;
+    background-color: #a392d3;
+    width:35px;
+    height: 35px;
+   padding-top: 20;
+    text-align: center;
+    margin-top: 3px;
+    padding:5px
+}
+.bellIcon{
+    color: white;
+    background-color: #a392d3;
+    width:50px;
+    height: 35px;
+   padding-top: 20;
+    text-align: center;
+    margin-top: 3px;
+    padding:5px 
+}
+ #badge {    
+    border-radius: 20px;
+    background: red;
+    padding:3px;
+    color: white;
+  }
+/* ------------------------------------------------mobile view------------------------ */
+@media screen and (max-width:425px) {
+    #rightNavContent{
+        border-radius: 0px;   
+        width:100%  
+}
+#homeNavbar.active{
+    border-bottom: #5e43aa solid 0px;
+    z-index: 2;
+}
+#ContactusNavbar.active{
+    border-bottom: #5e43aa solid 0px;
+    z-index: 2;
+}
+#FeaturesNavbar.active{
+    border-bottom: #5e43aa solid 0px;
+    z-index: 2;
+}
+}
+
+
+
+
+  

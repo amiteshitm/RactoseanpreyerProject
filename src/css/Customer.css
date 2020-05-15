@@ -1,0 +1,30 @@
+#rectangleBanner .box{
+    background-image: url(../image/rectangle_banner.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 300px;
+    margin-top:-5%;
+  }
+  .rectangleCustomer{
+    height: 120px;
+    width: 150px;
+    background-color:#ffffff;
+    border:2px solid #ebebeb;
+    margin-left: 50px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+   
+  }
+  #jontkookimg img{
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    margin-top: 10px;
+
+  }
+  

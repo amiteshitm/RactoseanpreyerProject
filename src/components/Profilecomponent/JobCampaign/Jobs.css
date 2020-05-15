@@ -1,0 +1,100 @@
+#jobcampain .active {
+    border-bottom: #5e43aa solid 2px;
+    
+}
+
+#jobcampain  {
+  width: 110%;
+
+}
+
+#jobDashboard{
+    color:blueviolet;
+    padding:8px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+
+#jobsArchived{
+    color:blueviolet;
+    padding:8px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+#Template{
+    color:blueviolet;
+    padding:8px;
+    font-size: 14px;
+    font-weight: 500px;
+}
+
+.my-custom-scrollbar {
+    position: relative;
+    display:block;
+    overflow:scroll;
+    height: calc(100vh - 200px);
+    }
+.my-custom-scrollbar-1 {
+        position: relative;
+        display:block;
+        overflow:scroll;
+        height: calc(100vh - 120px);
+        }
+
+
+#dashboard {
+    height: calc(100vh - 200px);
+}
+.table-wrapper-scroll-y {
+    display: block;    
+}
+#test:after {
+    content: '\2807';
+    font-size: 3em;
+    color: #2e2e2e;
+    
+    
+  }
+  .dot {
+    height: 8px;
+    width: 8px;
+    margin-right: 5px;
+    background-color:green;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  .dot1 {
+    height: 8px;
+    width: 8px;
+    margin-right: 5px;
+    background-color:grey;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  #job_table {
+      width: 100%
+  }
+  /* --------------historycomponent------------ */
+  .historydot {
+    height: 18px;
+    width: 18px;
+    background-color:#425da7;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:-8px;
+  
+  }
+  .vl {
+    border-left: 1px solid grey;
+    height: 100vh;
+  }
+  /* ---------------------------------------- */
+  div.row { 
+    width: 100%;
+  }
+  hr.borderline{
+    border-top: 2px solid grey;
+    margin-top:5px
+  }

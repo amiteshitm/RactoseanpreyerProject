@@ -1,0 +1,565 @@
+#rectangleBannerContactus .box{
+    background-image: url(../image/rectangle_banner.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 340px;
+    width: 100%;
+  }
+  #signupbetaimgContactform{
+    background-image: url(../image/sidesignup.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:55px;  
+    width: 100px;
+    z-index: 2;
+    right:0;
+    cursor: pointer;
+    margin-top: 10%;
+    
+  }
+  #signupbetaExpandimgContactform{
+    background-image: url(../image/background_purple.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height:300px;  
+    width: 38%;
+    z-index: 2;
+    right:0;
+    cursor: pointer;
+    
+  }
+
+  .backpag{
+    background-image: url(../image/contactbackpage.png);
+    background-repeat: none;
+    background-attachment: scroll;
+    background-position: center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+    height: 25em;
+    
+  }
+  #input input{
+    width:475px;
+    height:30px;
+    border:0px;
+    outline:none;
+    font-size: 12px;
+    padding-left: 20px;
+    border-radius:36px;
+    display:inline-block;
+    overflow:hidden;
+    font-weight: 400;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    border:1px solid grey;
+    background: transparent;
+    
+   
+  }
+  #input input::placeholder {
+    color: white;
+    opacity: 0.6; 
+  }
+  #input input[type=text] {
+    color: white;
+  }
+  #contactPhoneMargin input[type=number] {
+    color: white;
+   
+  }
+  /* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+  #input2 input[type=text] {
+    color: white;
+  }
+  #input2 input::placeholder {
+    color: white;
+    opacity: 0.6; 
+    
+  }
+  #input2 span input{
+    width:214px;
+    height:30px;
+    border:0px;
+    outline:none;
+    font-size: 12px;
+    padding-left: 20px;
+    border-radius:36px;
+    display:inline-block;
+    overflow:hidden;
+    font-weight: 400;
+    margin-top:10px ;
+    margin-bottom: 10px;
+    border:1px solid grey;
+    color:'#ffffff' ;
+    background: transparent;
+
+  }
+#textarea ::placeholder{
+    color:#ffffff;
+    opacity: 0.6;
+    font-size: 12px;
+   
+}
+  textarea{
+        width: 475px;
+        border-radius: 15px;
+        background: transparent;
+        outline: none;
+        border: 1px solid grey;
+        padding-left: 20px;
+        color: #ffffff;
+        height: 100px;
+  }
+  #textarea textarea{
+      margin-top: 10px;    
+  }
+  #firtRowHeading{
+    color:#ffffff;
+    font-size: 12px;
+    padding:20px;
+    opacity: 0.6;
+  }
+  #RowMargin{
+    margin-left: 40px;
+  }
+  #secondRowheading{
+    color:#ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    margin-left: 20px;
+  }
+  #thirdRowParagraph{
+    color:#ffffff;
+    font-size: 12px;
+    padding:10px;
+    margin-left: 15px;
+    opacity: 0.6px;
+  }
+  #contactdetails{
+    color:#ffffff;
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 15px;
+    margin-top: 20px;
+  }
+  #contactDetailsSendButton{
+    font-size: 10px;
+    margin-top: 10px;
+    background: #ffffff;
+    color: #2e3192;
+    border-radius: 25px;
+    padding: 10px;
+    width:120px ;
+    border:0px;
+    outline: none;
+  }
+  #contactPhoneMargin{
+    margin-left: 47px;
+  }
+ /* ------------------------------------------All Mobile View----------------------- */
+/* -----------------------------iPhone(6+, 7+ and 8+)---Mobile View--------------------- */
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: portrait){ 
+  #rectangleBannerContactus .box{
+    height: 190px;
+    width: 100%;
+  }
+  #signupbetaimgFeatures{
+    height:auto;  
+    width:auto;
+    right:0px;
+    margin-top: 25%;
+    border:  2px solid white;
+    border-radius:25px 0px 0px 25px ;
+  }
+  #signupbutton{
+    padding:10px;
+    font-size: 14px;
+  }
+  /* --------------sign up beta button End-------- */
+  /* --------------sign up beta Expand button-------- */
+  #signupbetaExpandimgFeatures{
+    height:150px;  
+    width: 70%;
+    right:0;
+    margin-top: 25%;
+  }
+  #signupbutton1{
+    padding:6px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  #signtextcolor{
+    margin-top: -8px;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  #flagImg {
+    width: 40px; 
+   margin-right: 45px;
+  }
+  #signupInput input{
+    width:90%;
+    height: 40px;
+    margin-left :15px;
+    margin-top: -20px;
+    text-indent: 5px;
+    font-size: 12px;
+  }
+  #signInputbutton{
+    margin-left: 65%;
+    font-size: 12px; 
+   }
+  #signInputbutton button{
+    width:70px; 
+    margin-top: -15px;
+  }
+  /* --------------sign up beta Expand button End-------- */
+  #secondRowheading{
+    font-size: 20px;
+  }
+/* ----------------------------formdetails------------------ */
+#input input{
+  width:280px;
+  height:30px;
+}
+#input2 span input{
+  width:280px;
+  height:30px;
+
+}
+/* --------------------------------formdetails End--------------- */
+.backpag{
+  height: 40em;
+  
+}
+#contactPhoneMargin{
+  margin-left: 0px;
+}
+#RowMargin{
+  margin-left: 5px;
+}
+textarea{
+  width: 280px;
+  padding-left: 20px;
+  color: #ffffff;
+  height: 100px;
+}
+#textarea textarea{
+margin-top: 10px;    
+}
+/* -------------------------footer contact page------------------- */
+    #contactUsForm{
+      margin-left: 5px;
+    }
+    #contactUsExtralinkForm{
+      margin-left: 190px;
+      margin-top: -78px;
+    }
+    #contactusServiceform{
+      margin-left: 290px;
+      margin-top: -135px;
+    }
+    #sec9EmailNewslatter{
+     margin-left: -15px;
+     margin-top: 10px;
+     font-size: 15px;
+    }
+    #sec9EmailNewsCont{
+      font-size: 10px;
+      margin-top: 10px;
+      margin-left: -15px;
+      font-weight: 500;
+    }
+    
+  #Sec9placeholdeEmail {
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+  #Sec9SubscribeButton {
+    margin-top: 15px;
+    } 
+}
+/* ----------------------------------------iPhone(6+, 7+ and 8+)---Mobile View End-------------------  */
+
+/* ----------- iPhone 6, 6S, 7 and 8  Mobile View ----------- */
+@media only screen and (min-width: 375px) and (max-width: 667px) and (orientation: portrait) { 
+  #rectangleBannerContactus .box{
+    height: 190px;
+    width: 100%;
+  }
+  /* --------------sign up beta button-------- */
+  #signupbetaimgFeatures{
+    height:auto;  
+    width:auto;
+    right:0px;
+    margin-top: 25%;
+    border:  2px solid white;
+    border-radius:25px 0px 0px 25px ;
+  }
+  #signupbutton{
+    padding:7px;
+    font-size: 12px;
+  }
+  /* --------------sign up beta button End-------- */
+  /* --------------sign up beta Expand button-------- */
+  #signupbetaExpandimgFeatures{
+    height:170px;  
+    width: 70%;
+    right:0;
+    margin-top: 25%;
+  }
+  #signupbutton1{
+    padding:6px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  #signtextcolor{
+    margin-top: -8px;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  #flagImg {
+    width: 40px; 
+   margin-right: 35px;
+  }
+  #signupInput input{
+    width:90%;
+    height: 35px;
+    margin-left :15px;
+    margin-top: -20px;
+    text-indent: 5px;
+    font-size: 12px;
+  }
+  #signInputbutton{
+    margin-left: 65%;
+    font-size: 12px; 
+   }
+  #signInputbutton button{
+    width:70px; 
+    margin-top: -15px;
+  }
+  /* --------------sign up beta Expand button End-------- */
+
+  #secondRowheading{
+    font-size: 20px;
+  }
+/* ----------------------------formdetails------------------ */
+#input input{
+  width:280px;
+  height:30px;
+}
+#input2 span input{
+  width:280px;
+  height:30px;
+
+}
+/* --------------------------------formdetails End--------------- */
+.backpag{
+  height: 40em;
+  
+}
+#contactPhoneMargin{
+  margin-left: 0px;
+}
+#RowMargin{
+  margin-left: 5px;
+}
+textarea{
+  width: 280px;
+  padding-left: 20px;
+  color: #ffffff;
+  height: 100px;
+}
+#textarea textarea{
+margin-top: 10px;    
+}
+
+/* -------------------------footer contact page------------------- */
+    #contactUsForm{
+      margin-left: 5px;
+    }
+    #contactUsExtralinkForm{
+      margin-left: 170px;
+      margin-top: -78px;
+    }
+    #contactusServiceform{
+      margin-left: 260px;
+      margin-top: -135px;
+    }
+    #sec9EmailNewslatter{
+     margin-left: -15px;
+     margin-top: 10px;
+     font-size: 15px;
+    }
+    #sec9EmailNewsCont{
+      font-size: 11px;
+      margin-top: 10px;
+      margin-left: -15px;
+      font-weight: 500;
+    }
+    
+  #Sec9placeholdeEmail {
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+  #Sec9SubscribeButton {
+    margin-top: 15px;
+    } 
+}
+
+/* ----------- iPhone 6, 6S, 7 and 8  Mobile View End ----------- */
+
+/* ----------------------------------------375px media query mobile view(for Android mobile) -------------------  */
+@media screen and (max-width:375px) {
+  #rectangleBannerContactus .box{
+    height: 160px;
+    width: 100%;
+
+  }
+  /* --------------sign up beta button-------- */
+  #signupbetaimgFeatures{
+    height:auto;  
+    width:auto;
+    right:0px;
+    margin-top: 25%;
+    border:  2px solid white;
+    border-radius:25px 0px 0px 25px ;
+  }
+  #signupbutton{
+    padding:7px;
+    font-size: 12px;
+  }
+  /* --------------sign up beta button End-------- */
+  /* --------------sign up beta Expand button-------- */
+  #signupbetaExpandimgFeatures{
+    height:170px;  
+    width: 70%;
+    right:0;
+    margin-top: 25%;
+  }
+  #signupbutton1{
+    padding:6px;
+    font-size: 15px;
+    margin-left: 15px;
+  }
+  #signtextcolor{
+    margin-top: -8px;
+    font-size: 10px;
+    margin-left: 25px;
+  }
+  #flagImg {
+    width: 40px; 
+   margin-right: 35px;
+  }
+  #signupInput input{
+    width:90%;
+    height: 35px;
+    margin-left :15px;
+    margin-top: -20px;
+    text-indent: 5px;
+    font-size: 12px;
+  }
+  #signInputbutton{
+    margin-left: 65%;
+    font-size: 12px; 
+   }
+  #signInputbutton button{
+    width:70px; 
+    margin-top: -15px;
+  }
+  /* --------------sign up beta Expand button End-------- */
+  #secondRowheading{
+    font-size: 20px;
+  }
+/* ----------------------------formdetails------------------ */
+#input input{
+  width:280px;
+  height:30px;
+}
+#input2 span input{
+  width:280px;
+  height:30px;
+
+}
+/* --------------------------------formdetails End--------------- */
+.backpag{
+  height: 40em;
+  
+}
+#contactPhoneMargin{
+  margin-left: 0px;
+}
+#RowMargin{
+  margin-left: 5px;
+}
+textarea{
+  width: 280px;
+  padding-left: 20px;
+  color: #ffffff;
+  height: 100px;
+}
+#textarea textarea{
+margin-top: 10px;    
+}
+/* ----------------------section4 Heading End--------------------- */
+
+/* -------------------------footer contact page------------------- */
+    #contactUsForm{
+      margin-left: 5px;
+    }
+    #contactUsExtralinkForm{
+      margin-left: 170px;
+      margin-top: -78px;
+    }
+    #contactusServiceform{
+      margin-left: 260px;
+      margin-top: -135px;
+    }
+    #sec9EmailNewslatter{
+     margin-left: -15px;
+     margin-top: 10px;
+     font-size: 15px;
+    }
+    #sec9EmailNewsCont{
+      font-size: 10px;
+      margin-top: 10px;
+      margin-left: -15px;
+      font-weight: 500;
+    }
+    
+  #Sec9placeholdeEmail {
+    margin-left: -15px;
+    margin-top: 15px;
+  }
+  #Sec9SubscribeButton {
+    margin-top: 15px;
+    }   
+}
+/* ----------------------------------------375px media query mobile view End-------------------  */
+

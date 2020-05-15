@@ -1,0 +1,13 @@
+.actiondot {
+    height: 18px;
+    width: 18px;
+    background-color:#425da7;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left:-8px;
+  
+  }
+  .vline {
+    border-left: 1px solid grey;
+    height: 20vh;
+  }

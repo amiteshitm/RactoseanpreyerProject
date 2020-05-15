@@ -1,0 +1,35 @@
+.paragraphHead{
+    color:#707070;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+#paragraphCollapse{
+    color:#707070;
+    font-weight: 500;
+    font-size: 15px;
+}
+#paragraph1Hr{
+    background:white;
+    height:15px
+}
+/* ---------------------------------------mobile view-------------------- */
+@media screen and (max-width:425px) {
+    #paragraphCollapse{
+    
+        color:#707070;
+        font-weight: 500;
+        font-size: 15px;
+    }   
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: portrait) {
+    .paragraphHead{
+        font-size: 13px;
+    }
+    #paragraphCollapse{
+        font-size: 13px;
+    }   
+}

@@ -1,0 +1,129 @@
+/* -----------------facbook button ------------------- */
+.btnFacebook {  
+  border:0px transparent;  
+  text-align: center;
+  margin:3px;
+  background-color: rgb(255, 255, 255);
+  display: inline-flex; 
+  align-items: center; 
+  color: rgba(0, 0, 0, 0.541176); 
+  box-shadow: rgba(0, 0, 0, 0.239216) 0px 2px 2px 0px, rgba(0, 0, 0, 0.239216) 0px 0px 1px 0px; 
+   border: 1px solid transparent; 
+   font-size: 13px; font-weight: 500; 
+   font-family: Roboto, sans-serif; 
+   cursor: pointer; opacity: 0.9;
+   margin-right: 0px; background: rgb(255, 255, 255); padding: 10px; border-radius: 2px;
+   
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+.fa {
+  padding: 5px;
+  padding-right:5px; 
+  width: 30px;
+  height: 25px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  margin: 0px 1px;
+  margin-right: 10px;
+}
+
+  /* ------------------navbar color---------------- */
+   
+
+#activeLoginLink.active {
+  border-bottom: #5e43aa solid 2px;
+}
+#activeRegisterLink.active {
+  border-bottom: #5e43aa solid 2px;
+}
+/* #Tab {
+  align-items: center;
+  align-self: center;
+  justify-content: center;
+  display: flex;
+} */
+
+#error {
+  font-size:10px;
+  color:red;
+  margin-bottom: -15px;
+  margin-top: -5px;
+  
+}
+
+.label{
+  font-size: 10px;
+}
+
+#profile {
+  background: white;
+  width: 100%;
+  margin-block: 0;
+  top: 0;
+  margin-top: 60px;
+  position: relative;
+  /* height: 100%;  */
+  z-index: 1;
+  
+}
+
+#drawer {
+  margin-block: 0;
+  margin-left: 0;
+}
+#drawer-col{
+  width: 50%;
+}
+
+#image {
+  background-image: url(../image/BG.png) ;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-position: center;
+  background-attachment: fixed;
+  top:0;
+  bottom:0;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+
+}
+
+#loginAndRegister{
+  margin-top: 80px;
+}
+/* --------------------------------------------mobile view----------------------------------------- */
+
+ /* -----------------------------iPhone(6+, 7+ and 8+)---Mobile View--------------------- */
+@media only screen and (min-width: 414px) and (max-width: 736px) and (orientation: portrait){
+  #loginAndRegister{
+    margin-top: 120px;
+   margin-left: 0px;
+
+  }
+  
+ }
+
+/* ----------- iPhone 6, 6S, 7 and 8  Mobile View ----------- */
+@media only screen and (max-width: 375px) and (max-width: 667px) and (orientation: portrait) { 
+  #loginAndRegister{
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+  
+}
+/* ----------------------------------------375px media query mobile view(for Android mobile) -------------------  */
+@media screen and (max-width:375px) {
+  #loginAndRegister{
+    margin-top: 100px;
+    margin-left: 0px;
+  }
+}
